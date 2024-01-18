@@ -4,6 +4,7 @@ import 'package:autoecoleproject/login.dart';
 import 'package:autoecoleproject/dashboard.dart';
 import 'package:autoecoleproject/pallete.dart';
 import 'package:autoecoleproject/quiz.dart';
+import 'package:autoecoleproject/quiz_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,6 +27,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => Login(),
         '/dashboard': (context) => Dashboard(),
         '/cours': (context) => Cours(), // Replace with your actual CoursScreen widget
+        '/quiz_widget': (context) => QuizWidget(), // Replace with your actual CoursScreen widget
+
         //'/client': (context) => ClientScreen(), // Replace with your actual ClientScreen widget
         //'/moniteur': (context) => MoniteurScreen(), // Replace with your actual MoniteurScreen widget
         '/Q&A': (context) => QnA(), // Replace with your actual QuizScreen widget

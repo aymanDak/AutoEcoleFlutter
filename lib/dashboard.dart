@@ -30,6 +30,10 @@ class Dashboard extends StatelessWidget {
             // Navigate to Cours screen
             Navigator.pushNamed(context, '/cours');
           }, context),
+          _buildNavItem('Quiz', () {
+            // Navigate to Cours screen
+            Navigator.pushNamed(context, '/quiz_widget');
+          }, context),
           _buildNavItem('Users', () {
             // Navigate to Client screen
             Navigator.pushNamed(context, '/users');
